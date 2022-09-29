@@ -1,20 +1,70 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Tailwind grid-cols Class</title>
 
-<head>
-	<title>Tailwind grid-cols Class</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.2/assets/css/docs.css"
+      rel="stylesheet"
+    />
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
 
-	<link href=
-"https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
-		rel="stylesheet">
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
-		<link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
-		<title>Bootstrap Example</title>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
-</head>
+  <body>
+    <section class="bg-light">
 
-<body class="p-3 m-0 border-0 bd-example">
-	<div class="container">
+		<div class="container">
+			<div class="row row-cols-lg-2 row-cols-sm-1 ">
+				<div class="col p-2">
+				  <img src="/wednesday/girl.jpg" class="img-fluid" width="100%" alt="" />
+				</div>
+				<div class="col p-2 align-self-center">
+				  <h1>Hello, Clients!</h1>
+				  <p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+					cumque fugit iste odit nisi velit porro vero incidunt! Quod cum
+					provident repellendus in, deleniti cumque non ducimus. Quas, aliquid
+					consequatur.
+				  </p>
+				</div>
+			  </div>
+		</div>
+    
+    </section>
+
+	<section>
+<div class="container">
+<div class="row">
+<div class="col-3">
+<img src="/wednesday/mail.png" class="img-fluid" width="50px" height="50px" alt="" />
+<h4>Ist Div</h4>
+<button type="button" class="btn btn-primary rounded">Clik here</button>
+</div>
+<div class="col-3">
+	<img src="/wednesday/mail.png" class="img-fluid" width="50px" height="50px" alt="" />
+	<h4>Ist Div</h4>
+	<button type="button" class="btn btn-primary rounded">Clik here</button>
+	</div>
+	<div class="col-3">
+		<img src="/wednesday/mail.png" class="img-fluid" width="50px" height="50px" alt="" />
+		<h4>Ist Div</h4>
+		<button type="button" class="btn btn-primary rounded">Clik here</button>
+		</div>
+</div>
+</div>
+
+	</section>
+
+    <!-- <div class="container">
 		<table class="table table-success table-hover">
 		  <thead>
 			<tr>
@@ -44,8 +94,8 @@
 			</tr>
 		  </tbody>
 		</table>
-		</div>
-	<!-- <h1 class="text-green-600 text-5xl font-bold">
+		</div> -->
+    <!-- <h1 class="text-green-600 text-5xl font-bold">
 		GeeksforGeeks
 	</h1>
 
@@ -76,8 +126,8 @@
 		<div class="bg-green-500 rounded-lg m-4 h-12">6</div> 
     </div>  -->
 
-	 <!-- Example Code -->
-<!--     
+    <!-- Example Code -->
+    <!--     
 	 <div class="clearfix">
 		<svg class="bd-placeholder-img col-md-6 float-md-end mb-3 ms-md-3" width="100%" height="210" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Responsive floated image" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Responsive floated image</text></svg>
 	  
@@ -100,6 +150,5 @@
 		  </div>
 	  
 	  End Example Code -->
-
-</body>
-
+  </body>
+</html>
